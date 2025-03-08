@@ -56,11 +56,11 @@ IntLiteral:
 
 PrimaryExpression returns IntExpression:
 	IntLiteral |
-	VariableReference |
+	IntVarExpression |
 	"(" Addition ")"
 ;
 
-VariableReference:
+IntVarExpression:
 	var = [VariableDeclaration]
 ;
 
