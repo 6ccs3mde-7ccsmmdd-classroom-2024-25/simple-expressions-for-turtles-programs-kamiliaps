@@ -15,6 +15,7 @@ Require-Bundle: uk.ac.kcl.inf.mdd2.turtles,
  org.eclipse.emf.ecore,
  junit-jupiter-api;bundle-version="5.9.1"
 Bundle-RequiredExecutionEnvironment: JavaSE-11
-Export-Package: uk.ac.kcl.inf.mdd2.tests.mmt,
+Export-Package: uk.ac.kcl.inf.mdd2.tests,
+ uk.ac.kcl.inf.mdd2.tests.mmt,
  uk.ac.kcl.inf.mdd2.tests.literals,
  uk.ac.kcl.inf.mdd2.tests.vars
