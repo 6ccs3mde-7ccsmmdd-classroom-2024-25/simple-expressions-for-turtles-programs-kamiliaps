@@ -49,17 +49,5 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Turtles.ecore#//Multiplication/left"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Turtles.ecore#//Multiplication/right"/>
     </genClasses>
-    <genClasses ecoreClass="Turtles.ecore#//IntLiteral">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Turtles.ecore#//IntLiteral/value"/>
-    </genClasses>
-    <genClasses ecoreClass="Turtles.ecore#//VariableReference"/>
-    <genClasses ecoreClass="Turtles.ecore#//Addition">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Turtles.ecore#//Addition/left"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Turtles.ecore#//Addition/right"/>
-    </genClasses>
-    <genClasses ecoreClass="Turtles.ecore#//Multiplication">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Turtles.ecore#//Multiplication/left"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Turtles.ecore#//Multiplication/right"/>
-    </genClasses>
   </genPackages>
 </genmodel:GenModel>
