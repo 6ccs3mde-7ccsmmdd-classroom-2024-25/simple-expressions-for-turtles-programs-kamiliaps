@@ -47,6 +47,28 @@ IntExpression:
 	var = [VariableDeclaration]
 ;
 
+Addition returns IntExpression:
+	Multiplication ({Addition.left= current} '+' right+= Multiplication)*
+;
+
+Multiplication returns IntExpression:
+	IntVarExpression ({Multiplication.left=current} '*' right+= IntVarExpression)*
+;
+
+IntLiteral:
+	value=INT
+;
+
+IntVarExpression returns IntExpression:
+	IntLiteral |
+	VariableReference |
+	"(" Addition ")"
+;
+
+VariableReference:
+	var = [VariableDeclaration]
+;
+
 REAL returns ecore::EFloat hidden():
 	INT? "." INT
 ; 
